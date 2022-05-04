@@ -1,0 +1,10 @@
+body {
+  position: relative;
+}
+
+  
+/* Stick list group on top */
+.list-group{
+    position: sticky;
+    top: 15px;
+}

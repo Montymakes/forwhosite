@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Who?</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
+<div class="container-lg my-2">
+    <h1>For Who?</h1>
+    <p class="lead"><i>A personal archive of TikTok's For You Algorithm.</i></p>
+    <div class="row">
+        <div class="col-sm-3" id="myScrollspy">
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action active" href="#section1">What is For Who?</a>
+                <a class="list-group-item list-group-item-action" href="#section2">The For You Page</a>
+                <a class="list-group-item list-group-item-action" href="#section3">Experiments and Results</a>
+                <a class="list-group-item list-group-item-action" href="#section4">Final Reflection</a>
+                <a class="list-group-item list-group-item-action" href="#section5">Credits</a>
+            </div>
+        </div>
+        <div class="col-sm-9">
+			<div id="section1">
+                <h2>What is For Who?</h2>
+                <p> This blog is my exploration of how recommendation algorithms can reflect or shape our identities. I am specifically focused on recomendation algorithm that powers TikTok's For You page..</p>
+                <p>The goal of this project is to explore the following questions:</p>
+                <ul>
+                    <li>How much influence do I have over the content on my For You page?</li>
+                    <li>How does my For You page influence me?</li>
+                    <li>How does an understanding of recomendation algorithms influence how I use TikTok?</li>
+
+                </ul>
+                <p>I don’t expect to fully answer these questions by the end of this project. Rather, I would like to join into a larger conversation about TikTok’s recommendation algorithm and encourage other TikTok viewers to consider these questions. </p>
+                <p>But let's answer your questions first!</p>
+                <h4>Who am I?</h4>
+                <p> I’m Monty, a 23-year-old undergraduate student studying Digital Narrative and Interactive Design on the Online Media track. I don’t use TikTok, but I do use other forms of social media (mostly Reddit and YouTube) daily, and I grew up using social media. I’m not an expert in algorithms or sociology, but I would like to work in web development after I graduate this Spring, and I’m interested in Internet subcultures and digital self-representations. I don’t think that ByteDance, TikTok’s parent company, or any other social media company has its users’ best interests at heart, and I feel that this is reflected in the algorithms these companies produce and the negative impacts that they have on people.</p>
+              
+                <h4>What's a TikTok?</h4>
+                <p><a href="https://www.tiktok.com/en/">TikTok</a> (or Douyin in China) is a social media platform owned by ByteDance Ltd. TikTok is mostly know for it's user-generated videos that can range from 15 seconds to 10 minutes long.</p>
+
+                <h4>What's a recomendation algorithm?</h4>
+                A recommendation algoritim (also know as recommender or recommendation system) is a filtering system that is built to predicts users' preferences. TikTok's For You page uses a recomendation algorithm to determine what content users see on their account's For You Page. 
+            </div>
+			<hr>
+			<div id="section2">
+				<h2>The For You Page</h2>
+                <img src="img/TikTok-For-You-page-1.jpg" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">A screenshot of TikTok's For You page.</figcaption>
+				<p>The For You page is the homepage of TikTok. This is the first page you'll see after creating an account. The For You page shows users live feeds or TikTok's from other users, according to it's recomendation algorithm. </p>
+                
+                <h4>How does the For You page's reccomendation algorithim work?</h4>
+                <p>Like most recommendation systems, the For You Page suggests content based on the users' preferences. TikTok determines these preferences by collecting data about how users use the app.</p>
+                <p>According to ByteDance, TikTok's parent company, TikTok's recommendation algorithm collects the following data: </p>
+                <ul>
+                    <li>How the user interacts with the TikTok through liking or sharing videos, following accounts, commenting, and creating content.</li>
+                    <li>The metadata of the videos you watch like captions, sounds, and hashtags.</li>
+                    <li>Your device's settings, such as the type of device you're using, your location, and language preferences.</li>
+                </ul>
+                <p>There's no way of knowing exactly how the algorithim weighs each of these factors, as the code is not open-source and constantly changing. There are other factors that influence the For You Page, such as:</p>
+                
+                <h4>How does knowing how the algorithm works help me?</h4>
+                <p>TikTok offers several ways to influence the content you see on the For You page in more active ways, such as: </p>
+                <uL>
+                    <li> Choosing topic preferences during account creation.</li>
+                    <li>Marking unwanted content as "Not Interested."</li>
+                    <li> Blocking accounts or reporting users.</li>
+                    <li> Searching for content specifically.</li>
+                </uL>
+                <h4>What's the point?</h4> 
+                <p>Apps like TikTok prioritize engagement. The logic is, if TikTok shows you videos that you're interested in, you'll stay on the platform for longer. The problem is that <b> interesting content is not the same as valuable content.</b> Misinformation, harmful stereotypes, and content that provokes strong negative feelings can also find it's way on your For You page.</p>
+                <h4>The Goal</h4> 
+                <p>My goal for this project was to game the algorithim into only showing me content that I considered valuable using what I know about how the algorithm works. By my  definition of valuable content is:
+                </p> 
+                <uL>
+                    <li>Relevant to my interests: I only want to see things that I care about/</li>
+                    <li>Informative: I would like to learn new and accurate information.</li>
+                    <li>Positive: After using TikTok, I would like to feel the same as or better than I felt before. </li>
+                </uL>
+            </div>
+			<hr>
+			<div id="section3">
+				<h2>Experiments and Results</h2>
+                <p>For each week, I spent ~5 hours on TikTok, filtering content using one or methods provided by the app. I documented how my TikTok page looked before and after each week. You can see these results in this table.</p>
+            </div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Week</th>
+                    <th scope="col">Method</th>
+                    <th scope="col">Results</th>
+                    <th scope="col">Valuable?</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Account creation: This week I just created the account and watched TikToks. I did not use the like button or any other filtering feature. </td>
+                    <td>I was recommended a lot of videos about Pennsylvania, based on my location. I was recommended videos on a wide variety of content ranging from entertaiment, to educational, and even political. I saw a huge number of conspiracy videos and flat out disinformation.  </td>
+                    <td>
+                    <uL>
+                        <li>Relevant? I'd say around 20% of the content I was recommended was relevant to my interests. 30% of the content was actively offensive to my sensibilites.</li>
+                        <li>Informative? I did not learn anything this week.</li>
+                        <li>Positive? I mostly felt worse after using the app.</li>
+                    </uL></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Like and Not Interested: I liked content that I found valuable and chose not interested for content that I found offensive.</td>
+                    <td>The algorithim really kicked into gear this week. The content that I saw changed much more rapidly than the prior week. Most notably, once I clicked "Not Interested" on a TikTok, I saw little to no TikToks with similar content.</td>
+                    <td><uL>
+                        <li>Relevant? y the end of the first day, around 50% of the content I was recommended was relevant to my interests. 10% of the content was actively offensive to my sensibilites.</li>
+                        <li>Informative? I still didn't learn anything this week. TikTok did recommended educational content, but none that aligned with my interests.</li>
+                        <li>Positive? I mostly felt neutral after using the app.</li>
+                    </uL></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Blocking and Following Accounts: I followed accounts that I liked and unfollowed accounts that I didn't like. </td>
+                    <td>Following accounts changed my For You Page drastically. TikTok creators usually make lots of very similar content. I began seeing several videos from the same creators or creators who make similar content.</td>
+                    <td><uL>
+                        <li>Relevant? I was recommended was relevant to my interests. However, I saw too much of the same type of content. The rate at which I saw content that I didn't like didn't decrease.</li>
+                        <li>Informative? I followed an account about zoology so I did learn some cool facts about animals. That's it though.</li>
+                        <li>Positive? I mostly felt more positve after using the app than I had so far.</li>
+                    </uL></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Searching: I searched for topics that I was interested in for the first 30 minutes of my sessions. I than used the For You page for the last 30 minutes.</td>
+                    <td>Searching for content did not seem to affect my For You page as much. However, I was exposed to new accounts and topics that TikTok had not recomended to me.</td>
+                    <td>
+                        <uL>
+                        <li>Relevant? 60% of the content I was recommended was relevant to my interests. 30% of the content was actively offensive to my sensibilites.</li>
+                        <li>Informative? Since I actively searched for topics that I was interested in I did see more educational content. However, a lot of this content was wrong or misleading. I regret searching for Covid-19.</li>
+                        <li>Positive? I felt slightly worse than  the previous week.</li>
+                    </uL></td>
+                  </tr>
+                </tbody>
+              </table>
+			<hr>
+			<div id="section4">
+				<h2>Final Reflection</h2>
+				<p>Taking the time to curate My For You page did show some positive results. The algorithim got significantly better at showing content that I am interested in, and by the end, I was mostly enjoying using TikTok.</p>
+				<p>The most valuable takeaway that I took from this experiment was taking time to reflect on how the experience made me feel. I was more mindful of consuming meaningless content and more grateful when I found valuable content. Reflecting on what I'd learned during each section helped me spot misinformation more often.</p>
+                <p> I was not able to completely valueless or offenseive content. Specifically, none of the methods I used decreased the amount of sponsored content I saw. And TikTok keeps reccommending political content that I'm not interested in.</p>
+            </div>
+			<hr>
+			<div id="section5">
+				<h2>Credits</h2>
+				<p>I would like thank my instructor Dr. Jessica FitzPatrick, my classmates, and interviewee for all their help and support on this project. </p>
+               \
+			</div>
+		</div>
+    </div>
+</div>
+</body>
+</html>                            
